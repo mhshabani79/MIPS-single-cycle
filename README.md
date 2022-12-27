@@ -2,9 +2,9 @@
 this is the verilog-HDL implementation of MIPS32. the processor designed in single cycle mode.  
 Project has 2 part:  
 **1. Processor:**  
-The main verilog code of processor is in [modules.sv](/modules.sv) file.  
+The main verilog code of processor is in [Modules.sv](/Modules.sv) file.  
 **2. Test program:**  
-a simple test program designed. the binary instructions of test program are in [instructions.txt](/instructions.txt). also the memory file of that program is in [memory.txt](/memory.txt). for case of knowing every binary instruction, we decode every instruction to its Assembly on [Assembly to Bin.txt](/docs/Assembly%20to%20Bin.txt) file.  
+a simple test program designed. the binary instructions of test program are in [instruction.txt](/instruction.txt). also the memory file of that program is in [memory.txt](/memory.txt). for case of knowing every binary instruction, we decode every instruction to its Assembly on [Assembly to Bin.txt](/docs/Assembly%20to%20Bin.txt) file.  
 ## Data path Design
 below the RTL design of processpr, attached.
 ![datapath](/docs/DataPath.jpg)
